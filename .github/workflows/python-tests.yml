@@ -21,4 +21,4 @@ jobs:
 
     - name: Execute parallel graph benchmark test
       run: |
-        python -m tests.benchmark
+        PYTHONPATH=. python tests/benchmark.py
