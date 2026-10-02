@@ -1,5 +1,11 @@
-import time
+import sys
+from pathlib import Path
+
+# Force add project root to Python search path
+sys.path.append(str(Path(__file__).resolve().parent.parent))
+
 import random
+import time
 from src.engine import ConcurrentGraphEngine
 
 
