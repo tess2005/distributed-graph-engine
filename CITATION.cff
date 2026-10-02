@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you reference or use this parallel PageRank implementation, please cite it as below."
+authors:
+  - family-names: "Thomas"
+    given-names: "Tess"
+title: "Distributed Graph Engine: Parallel PageRank Convergence via Multiprocessing IPC"
+version: 1.0.0
+date-released: 2026-10-02
+url: "https://github.com/tess2005/distributed-graph-engine"
